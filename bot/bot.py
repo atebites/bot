@@ -26,6 +26,16 @@ async def on_ready():
 ################################################################################
 
 @bot.command()
+async def restart(ctx):
+    if str(ctx.author.id) != os.getenv('ADMIN_ID'):
+        await ctx.send(f'Your ID "{str(ctx.author.id)}" does not have permission to run this command.')
+        return
+    await ctx.send(f'Restarting bot...')
+    await bot.close()
+    os.execv(sys.executable, ['python'] + sys.argv)
+    os._exit(1)
+
+@bot.command()
 async def ping(ctx):
     await ctx.send('pong')
 
