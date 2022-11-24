@@ -7,7 +7,7 @@ A simple discord bot.
 
 | Command | Action                  |
 |--------:|:------------------------|
-| $ping   | Bot responds "pong".    |
+| !ping   | Bot responds "pong".    |
 
 ## Hosting ##
 

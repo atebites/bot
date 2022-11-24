@@ -8,7 +8,7 @@ intents = discord.Intents.default()
 intents.message_content = True
 
 #client = discord.Client(intents=intents)
-bot = commands.Bot(command_prefix='$', intents=intents)
+bot = commands.Bot(command_prefix='!', intents=intents)
 
 ################################################################################
 
@@ -20,7 +20,7 @@ async def on_ready():
 #async def on_message(message):
 #    if message.author == bot.user:
 #        return
-#    if message.content.startswith('$hello'):
+#    if message.content.startswith('!hello'):
 #        await message.channel.send('Hello!')
 
 ################################################################################
