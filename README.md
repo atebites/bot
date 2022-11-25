@@ -7,6 +7,7 @@ A simple discord bot.
 
 | Command      | Action                     |
 |-------------:|:---------------------------|
+| !help        | Bot lists commands.        |
 | !restart     | Bot restarts.              |
 | !ping        | Bot responds "pong".       |
 | !game [name] | Launch the requested game. |
