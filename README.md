@@ -5,10 +5,11 @@ A simple discord bot.
 
 ## Commands ##
 
-| Command  | Action                  |
-|---------:|:------------------------|
-| !restart | Bot restarts.           |
-| !ping    | Bot responds "pong".    |
+| Command      | Action                     |
+|-------------:|:---------------------------|
+| !restart     | Bot restarts.              |
+| !ping        | Bot responds "pong".       |
+| !game [name] | Launch the requested game. |
 
 ## Hosting ##
 
