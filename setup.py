@@ -15,5 +15,6 @@ setup(
 	# List of packages to install with this one 
 	install_requires=[
         "discord.py",
+        "english-words",
     ],
 )
